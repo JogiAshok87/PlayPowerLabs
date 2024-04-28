@@ -1,0 +1,88 @@
+.time-zone-display {
+    background-color: #ccc; 
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px;
+  }
+
+  
+  .time-zone-display h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .time-range-selector{
+    padding:10px;
+    margin:10px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .time-zone-name {
+    font-weight: bold;
+    font-size: 1.2em;
+    color:black;
+  }
+  .slider{
+    margin: 30px;
+  }
+  
+  .time-display {
+    font-size: 2em;
+    padding: 5px 10px;
+    background-color: #48bb78; 
+    border-radius: 5px;
+  }
+  
+  .gmt-offset, .current-date {
+    font-size: 0.9em;
+    color: #387ADF; 
+  }
+  
+  .time-range-selector {
+    margin-top: 20px;
+    height: 100px; 
+  }
+  
+  /* Style the marks */
+  .MuiSlider-mark {
+    display: inline-block;
+    position: absolute;
+    bottom: -20px; 
+    transform: translateX(-50%);
+    white-space: nowrap;
+  }
+  
+  /* Style the mark labels */
+  .MuiSlider-markLabel {
+    font-size: 12px;
+  }
+  .ist-time{
+    color:black;
+    border:2px solid #a0aec0;
+    width:200px;
+    height:60px;
+    padding:5px;
+    margin-top: 30px;
+  }
+  .ist-time P{
+    font-size: 25px;
+  }
+  .IST-Time{
+    font-size:25px;
+    color:#387ADF;
+
+  }
+  .removeBtn{
+    margin-top: 10px;
+    background-color: transparent;
+    border:none;
+    font-size: 30px;
+    cursor: pointer;
+    color:#387ADF;
+  }
